@@ -24,6 +24,10 @@
     [self.scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew context:nil];
 }
 
+- (void)dealloc {
+    [self.scrollView removeObserver:self forKeyPath:@"contentOffset"];
+}
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context{
     if ([object isEqual:self.scrollView] && [keyPath isEqualToString:@"contentOffset"]) {
         [self refreshNavigationBar];

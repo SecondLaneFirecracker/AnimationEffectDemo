@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Hq-aX-uV9">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6Hq-aX-uV9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,20 +19,20 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0V9-Wc-3eN">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="0V9-Wc-3eN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cute_dog.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Pch-6C-Gli">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Pch-6C-Gli" secondAttribute="height" multiplier="1:1" id="5yX-wc-EjE"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Pch-6C-Gli" firstAttribute="width" secondItem="0V9-Wc-3eN" secondAttribute="width" id="3QJ-VW-dCU"/>
                                     <constraint firstAttribute="bottom" secondItem="Pch-6C-Gli" secondAttribute="bottom" constant="1000" id="3ir-q7-SAb"/>
@@ -40,9 +43,9 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0V9-Wc-3eN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Cwe-iK-MFz"/>
+                            <constraint firstItem="0V9-Wc-3eN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Cwe-iK-MFz"/>
                             <constraint firstItem="0V9-Wc-3eN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="h4B-r0-0QK"/>
                             <constraint firstAttribute="trailing" secondItem="0V9-Wc-3eN" secondAttribute="trailing" id="n0W-yE-Yhf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0V9-Wc-3eN" secondAttribute="bottom" id="svN-Tw-aBk"/>
@@ -52,15 +55,13 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="4C0-XI-1nO"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="vOX-jO-Z5b"/>
                     </navigationItem>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="800"/>
                     <connections>
                         <outlet property="scrollView" destination="0V9-Wc-3eN" id="SEz-pu-a07"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="176"/>
+            <point key="canvasLocation" x="512" y="173"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gzH-7x-Kvy">
@@ -68,11 +69,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Hq-aX-uV9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="vu8-GV-bM1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -81,7 +81,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XCw-or-Osu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7" y="176"/>
+            <point key="canvasLocation" x="-394" y="174"/>
         </scene>
     </scenes>
     <resources>

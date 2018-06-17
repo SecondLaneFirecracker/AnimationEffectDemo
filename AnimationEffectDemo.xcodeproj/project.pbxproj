@@ -10,7 +10,6 @@
 		03619FCB1CD0B283009E1CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03619FCA1CD0B283009E1CAD /* main.m */; };
 		03619FCE1CD0B283009E1CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03619FCD1CD0B283009E1CAD /* AppDelegate.m */; };
 		03619FD11CD0B283009E1CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03619FD01CD0B283009E1CAD /* ViewController.m */; };
-		03619FD61CD0B283009E1CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03619FD51CD0B283009E1CAD /* Assets.xcassets */; };
 		03619FD91CD0B283009E1CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03619FD71CD0B283009E1CAD /* LaunchScreen.storyboard */; };
 		03619FE21CD0B2D8009E1CAD /* cute_dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03619FE11CD0B2D8009E1CAD /* cute_dog.jpeg */; };
 		03619FE41CD0B2FD009E1CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03619FE31CD0B2FD009E1CAD /* Main.storyboard */; };
@@ -23,7 +22,6 @@
 		03619FCD1CD0B283009E1CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03619FCF1CD0B283009E1CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03619FD01CD0B283009E1CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		03619FD51CD0B283009E1CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03619FD81CD0B283009E1CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03619FDA1CD0B283009E1CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03619FE11CD0B2D8009E1CAD /* cute_dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_dog.jpeg; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				03619FCC1CD0B283009E1CAD /* AppDelegate.h */,
 				03619FCD1CD0B283009E1CAD /* AppDelegate.m */,
 				03619FE31CD0B2FD009E1CAD /* Main.storyboard */,
-				03619FD51CD0B283009E1CAD /* Assets.xcassets */,
 				03619FD71CD0B283009E1CAD /* LaunchScreen.storyboard */,
 				03619FDA1CD0B283009E1CAD /* Info.plist */,
 				03619FC91CD0B283009E1CAD /* Supporting Files */,
@@ -149,7 +146,6 @@
 			files = (
 				03619FD91CD0B283009E1CAD /* LaunchScreen.storyboard in Resources */,
 				03619FE41CD0B2FD009E1CAD /* Main.storyboard in Resources */,
-				03619FD61CD0B283009E1CAD /* Assets.xcassets in Resources */,
 				03619FE21CD0B2D8009E1CAD /* cute_dog.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +302,7 @@
 				03619FDF1CD0B283009E1CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
